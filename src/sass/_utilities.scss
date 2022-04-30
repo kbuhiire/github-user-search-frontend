@@ -1,0 +1,53 @@
+.wrapper {
+    width: 94%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginBtm {
+    margin-bottom: 4em;
+}
+.container {
+    display: flex;
+}
+.space {
+    margin: 10px;
+}
+
+/* flex utilities */
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.f-center-x {
+    justify-content: center;
+}
+.f-center-y {
+    align-items: center;
+}
+.f-btw {
+    justify-content: space-between;
+
+}
+.f-row {
+    flex-direction: row;
+}
+.f-col {
+    flex-direction: column;
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
+}
